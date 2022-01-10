@@ -1,0 +1,36 @@
+.table_cont{
+    margin: 10px 10% 0 10%;
+}
+
+
+.table_cont table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+  }
+
+
+  .edi_del_btn{
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      
+  }
+
+  .edi_del_btn .delete, .edit{
+      border: none;
+      background-color: transparent;
+  }
+
+ .delete :hover{
+    transform: scale(1.1);
+ }
+
+ .edit :hover{
+    transform: scale(1.1);
+ }

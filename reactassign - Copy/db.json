@@ -1,0 +1,323 @@
+{
+  "users": [
+    {
+      "email": "nikhil@gmail.com",
+      "id": 13
+    },
+    {
+      "type": "mentor",
+      "name": "advanced java",
+      "email": "abc@gmail.com",
+      "password": "123",
+      "id": 14
+    },
+    {
+      "type": "mentor",
+      "name": "akash ",
+      "email": "akash@gmail.com",
+      "password": "123",
+      "id": 15
+    },
+    {
+      "email": "sahil@gmail.com",
+      "password": "123",
+      "id": 18
+    },
+    {
+      "type": "employee",
+      "name": "Kunal",
+      "email": "kunal@gmail.com",
+      "password": "123",
+      "id": 19
+    },
+    {
+      "type": "mentor",
+      "name": "Nikhil Jikar",
+      "email": "nikhil@gmail.com",
+      "password": "123",
+      "id": 20
+    },
+    {
+      "type": "mentor",
+      "name": "Sahil",
+      "email": "sahil@gmail.com",
+      "password": "123",
+      "id": 21
+    }
+  ],
+  "projects": [
+    {
+      "project": "Angular",
+      "mentor": "Bansri Patel",
+      "requirement": "complete  numquamcomplete project ass soon ass posibleLorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe consectetur quasi atque quidem, illo a hic exercitationem aperiam ratione nostrum repudiandae obcaecati cum dignissimos? Ratione deleniti facilis impedit delectus aperiam numquam, asperiores vel dolorem eum sit adipisci perferendis esse commodi in. Quo sunt at consequatur iusto sequi assumenda autem ex praesentium dolore aliquid ipsam inventore, quam delectus culpa ut reiciendis accusamus et nisi provident libero explicabo possimus. Porro nam commodi velit dolorum inventore, ducimus consequuntur blanditiis explicabo perspiciatis praesentium, accusamus aut, magni vero. Similique recusandae quos perspiciatis sunt earum necessitatibus perferendis est hic soluta mollitia aliquam incidunt quae animi cupiditate error placeat, laborum praesentium officiis accusamus asperiores ut. Delectus officia tempore eligendi animi accusantium repudiandae, voluptatem ipsa inventore. Quos harum aliquid voluptate necessitatibus. Dignissimos illo molestiae",
+      "projectName": "svelte",
+      "selectMember": [
+        "vikas dubey",
+        "xyz",
+        "James Watt",
+        "xyz",
+        "James Watt"
+      ],
+      "startDate": "2021-10-10",
+      "endDate": "2021-10-22",
+      "status": "On Going",
+      "id": 1,
+      "technology": "Svelte"
+    },
+    {
+      "project": "React",
+      "mentor": "Bansri Patel",
+      "requirement": "complete project ass soon ass posibleLorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe consectetur quasi atque quidem, illo a hic exercitationem aperiam ratione nostrum repudiandae obcaecati cum dignissimos? Ratione deleniti facilis impedit delectus aperiam numquam, asperiores vel dolorem eum sit adipisci perferendis esse commodi in. Quo sunt at consequatur iusto sequi assumenda autem ex praesentium dolore aliquid ipsam inventore, quam delectus culpa ut reiciendis accusamus et nisi provident libero explicabo possimus. Porro nam commodi velit dolorum inventore, ducimus consequuntur blanditiis explicabo perspiciatis praesentium, accusamus aut, magni vero. Similique recusandae quos perspiciatis sunt earum necessitatibus perferendis est hic soluta mollitia aliquam incidunt quae animi cupiditate error placeat, laborum praesentium officiis accusamus asperiores ut. Delectus officia tempore eligendi animi accusantium repudiandae, voluptatem ipsa inventore. Quos harum aliquid voluptate necessitatibus. Dignissimos illo molestiae",
+      "projectName": "svelte",
+      "selectMember": [
+        "James Watt"
+      ],
+      "startDate": "2021-10-10",
+      "endDate": "2021-10-22",
+      "status": "Completed",
+      "id": 2,
+      "technology": "Svelte"
+    },
+    {
+      "project": "vidyalu",
+      "mentor": "nikhil jikar",
+      "selectMember": [
+        "aman",
+        "vishal",
+        "vikram"
+      ],
+      "startDate": "2021-12-13",
+      "endDate": "2021-12-14",
+      "requirement": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu",
+      "status": "onhold",
+      "id": 3
+    },
+    {
+      "project": "Argon",
+      "mentor": "kapadia sir",
+      "selectMember": [
+        "aman",
+        "vikram"
+      ],
+      "startDate": "2021-12-20",
+      "endDate": "2021-12-31",
+      "requirement": "Lorem Ipsum Dolor Emet You need to be careful that you have the necessary history to go back. If you hit the page directly and then hit back it will take you back in the browser history before your app.",
+      "status": "notcompleted",
+      "id": 4
+    },
+    {
+      "project": "worldcup",
+      "mentor": "kapadia sir",
+      "selectMember": [
+        "vishal",
+        "vikram",
+        "tony"
+      ],
+      "startDate": "2021-12-28",
+      "endDate": "2022-01-06",
+      "requirement": "You need to be careful that you have the necessary history to go back. If you hit the page directly and then hit back it will take you back in the browser history before your app.",
+      "status": "notcompleted",
+      "id": 5
+    }
+  ],
+  "tasks": [
+    {
+      "project": "Angular",
+      "dura": "10days",
+      "finT": "reac",
+      "time": "10days",
+      "status": "completed",
+      "comment": "no comment",
+      "reply": "no reply",
+      "qa": "Good",
+      "quality": "Good",
+      "approve": "yes",
+      "developer": "Nikhil",
+      "date": "10-12-2021"
+    },
+    {
+      "project": "Angular",
+      "dura": "20days",
+      "finT": "reac",
+      "time": "10days",
+      "status": "completed",
+      "comment": "no comment",
+      "reply": "no reply",
+      "qa": "Good",
+      "quality": "Good",
+      "approve": "yes",
+      "developer": "Nikhil",
+      "date": "10-12-2021"
+    },
+    {
+      "project": "Survey",
+      "dura": "10days",
+      "finT": "reactjs",
+      "time": "10days",
+      "status": "completed",
+      "comment": "no comment",
+      "reply": "no reply",
+      "qa": "Good",
+      "quality": "Good",
+      "approve": "yes",
+      "developer": "Nikhil",
+      "date": "10-12-2021"
+    }
+  ],
+  "mydt": [
+    {
+      "project": "React",
+      "dura": "4hrs",
+      "finT": "6hrs",
+      "status": "notcompleted",
+      "comment": "no comments",
+      "reply": "no reply",
+      "qa": "Approve",
+      "quality": "improve",
+      "approve": "no",
+      "developer": "vishay",
+      "date": "2021-12-31",
+      "id": 1
+    },
+    {
+      "project": "React",
+      "dura": "2days",
+      "finT": "2days",
+      "status": "ongoing",
+      "comment": "no comments",
+      "reply": "no reply",
+      "qa": "Approve",
+      "quality": "good",
+      "approve": "no",
+      "developer": "aman",
+      "date": "2021-12-10",
+      "id": 2
+    },
+    {
+      "project": "vidyalu",
+      "dura": "2days",
+      "finT": "2days",
+      "status": "complete",
+      "comment": "no comments",
+      "reply": "no reply",
+      "qa": "Approve",
+      "quality": "improve",
+      "approve": "no",
+      "developer": "oiloiho",
+      "date": "2021-12-14",
+      "id": 3
+    },
+    {
+      "project": "Angular",
+      "dura": "5days",
+      "finT": "4days",
+      "status": "notcompleted",
+      "comment": "no comments",
+      "reply": "no reply",
+      "qa": "yes",
+      "quality": "improve",
+      "approve": "yes",
+      "developer": "vishay",
+      "date": "2021-12-30",
+      "id": 4
+    },
+    {
+      "project": "vidyalu",
+      "dura": "1hrs",
+      "finT": "1hrs",
+      "status": "onhold",
+      "comment": "no comments",
+      "reply": "no reply",
+      "qa": "not-approve",
+      "quality": "average",
+      "approve": "no",
+      "developer": "vishay",
+      "date": "2021-12-17",
+      "id": 5
+    },
+    {
+      "project": "Angular",
+      "dura": "4hrs",
+      "finT": "6hrs",
+      "status": "onhold",
+      "comment": "no comments",
+      "reply": "no reply",
+      "qa": "",
+      "quality": "good",
+      "approve": "no",
+      "developer": "kristen",
+      "date": "2021-12-28",
+      "id": 6
+    },
+    {
+      "project": "Angular",
+      "dura": "1hr",
+      "finT": "4hr",
+      "status": "complete",
+      "comment": "no comments",
+      "reply": "no reply",
+      "qa": "",
+      "quality": "Good",
+      "approve": "yes",
+      "developer": "oiloiho",
+      "date": "2021-12-23",
+      "id": 7
+    },
+    {
+      "project": "React",
+      "dura": "13",
+      "finT": "15",
+      "status": "onhold",
+      "comment": "Good approach",
+      "reply": "thanks",
+      "qa": "approve",
+      "quality": "better",
+      "approve": "yes",
+      "developer": "krishna",
+      "date": "2021-12-31",
+      "id": 8
+    },
+    {
+      "project": "Argon",
+      "dura": "3hrs",
+      "finT": "6hrs",
+      "status": "completed",
+      "comment": "good work",
+      "reply": "thanks",
+      "qa": "approve",
+      "quality": "improve",
+      "approve": "yes",
+      "developer": "nikhil",
+      "date": "2021-12-30",
+      "id": 9
+    },
+    {
+      "project": "worldcup",
+      "dura": "12days",
+      "finT": "2days",
+      "status": "complete",
+      "comment": "no comments",
+      "reply": "no reply",
+      "qa": "approve",
+      "quality": "good",
+      "approve": "yes",
+      "developer": "aman",
+      "date": "2021-12-30",
+      "id": 10
+    }
+  ],
+  "todo": [
+    {
+      "name": "angular",
+      "id": 1
+    },
+    {
+      "name": "krunal",
+      "id": 2
+    },
+    {
+      "name": "nikhil",
+      "id": 3
+    }
+  ]
+}

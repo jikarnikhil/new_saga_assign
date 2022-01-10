@@ -1,0 +1,113 @@
+.project_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 0 10px;
+    color: black;
+    text-align: center;
+  }
+  
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 280px;
+    min-width: 280px;
+    min-height: 280px;
+    max-height: 280px;
+    margin: 18px;
+    padding: auto;
+    /* text-align: center; */
+    font-family: arial;
+    border-radius: 5px;
+    background-image: url('https://thumbs.dreamstime.com/b/simple-white-brick-wall-light-gray-shades-seamless-pattern-surface-texture-background-banner-wide-panorama-format-simple-137027626.jpg');
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .date {
+    color: rgb(78, 77, 77);
+    /* font-size: 18px; */
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: #000;
+    background: none;
+    /* background-color: #000; */
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    position: relative;
+    }
+
+  
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+.card p{
+  padding: 2px 0;
+}
+
+.card .card_header p{
+    position: relative;
+    top: -12px;
+    /* font-weight: 900; */
+    /* font-size: larger; */
+}
+
+
+.card .card_header small.card_status{
+  position: relative;
+  top: 10px;
+  right: -95px;
+  height: 5px;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .card .card_header small.card_status{
+    position: relative;
+    top: 10px;
+    right: -80px;
+    /* height: 5px; */
+  }
+
+  .card .card_header h2{
+    position: relative;
+    top: -20px;
+    font-weight: 500;
+}
+}
+
+
+.card1{
+  margin: 18px;
+  max-width: 280px;
+  max-height: 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-image: url('https://thumbs.dreamstime.com/b/simple-white-brick-wall-light-gray-shades-seamless-pattern-surface-texture-background-banner-wide-panorama-format-simple-137027626.jpg');
+  border-radius: 5px;
+}
+
+.card1 .card1_btn{
+    padding: 100px;
+}
+
+/* .card .card_btn{
+  justify-content: flex-end;
+  display: flex;
+} */
+
+
+/* .button {
+  display: none;
+} */
+
+/* div:hover + .button, .button:hover {
+  display: inline-block;
+} */

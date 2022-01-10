@@ -1,0 +1,137 @@
+body{
+  /* background-image: url('https://thumbs.dreamstime.com/b/simple-white-brick-wall-light-gray-shades-seamless-pattern-surface-texture-background-banner-wide-panorama-format-simple-137027626.jpg'); */
+}
+
+.container{
+    width: 100%;
+    margin: -30px auto 0 auto;
+  }
+  
+  @media(min-width: 576px){
+    .container{
+      max-width: 540px;
+    }
+  }
+  
+  @media(min-width: 768px){
+    .container{
+      max-width: 720px
+    }
+  }
+  
+  header{
+      text-align: center;
+      /* margin-bottom: 1.5rem; */
+  }
+  
+  h1{
+    font-weight: 400;
+  }
+  
+  #description{
+    font-weight: 200;
+    font-style: italic;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5)
+  }
+
+  #survey-form{
+    background: #fff;
+    padding: 2.3rem 0.5rem;
+    border-radius: 0.3rem;
+ }
+ 
+ .form-input{
+    margin: 0 2.5rem 1.2rem 2rem;
+ }
+
+ ::selection{
+    background: rgba(26,188,156,0.3);
+  }
+ 
+ .form-input-size{
+    display: block;
+    width: 100%;
+    height: 1.5rem;
+    padding: 0.3rem 0.4rem;
+    border-radius: 0.2rem;
+    border: 1px solid lightgrey;
+    /* border-style: none; */
+    margin-top: 0.4rem;  
+ }
+
+ .form-input select{
+    width: 100%;
+    border: 1px solid lightgrey;
+ }
+ 
+
+ .date-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 30px;
+    
+ }
+
+ .date-input span{
+    position: relative;
+    top: -10px;
+    font-size: 0.8rem;
+    right: -10px;
+ }
+
+ .date-input input{
+     width: 50%;
+     position: relative;
+     top: 25px;
+     left: -35px;
+     border: 1px solid lightgrey;
+ }
+
+ p{
+    font-size: 1.12rem;
+   }
+   
+   label {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+   }
+
+   textarea{
+    width: 100%;
+    min-height: 6rem;
+    resize: vertical;
+    padding: 0.5rem 0 0 0.5rem;
+    border: 1px solid lightgrey;
+   }
+   
+   #submit{
+    width: 100%;
+    padding: 0.8rem;
+    background: #16a085;
+    color: white;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    border: none;
+   }
+
+   .toolbar__right {
+     margin-right: 50px;
+     /* background-color: #56bf89; */
+     border-radius: 5px;
+     /* padding: 0 50px; */
+   }
+
+   .admin__header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+   }
+
+   .mul_select{
+     
+   }
+   
+   
